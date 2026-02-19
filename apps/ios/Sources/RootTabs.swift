@@ -20,6 +20,10 @@ struct RootTabs: View {
                 .tabItem { Label("Voice", systemImage: "mic") }
                 .tag(1)
 
+            TerminalTab()
+                .tabItem { Label("Terminal", systemImage: "terminal") }
+                .tag(3)
+
             SettingsTab()
                 .tabItem { Label("Settings", systemImage: "gearshape") }
                 .tag(2)
